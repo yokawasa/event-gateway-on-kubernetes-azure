@@ -151,6 +151,7 @@ echo $EVENT_GATEWAY_IP
 ## Routing Events to Azure Functions
 
 In this section you will deploy the `echo` Function in Azure Functions used to test the event routing functionality of the Event Gateway. 
+> Sample `echo` function that is used in this tutorial is not recommended for production as it lacks any form of security or authentication (authLevel is `anonymous`).
 
 ### Deploy echo function in Azure Function
 
@@ -383,3 +384,8 @@ $ az group delete --name rg-eventgateway
 ## LINKS
 - [Event Gateway Project Github](https://github.com/serverless/event-gateway)
 - [Event Gateway API References](https://github.com/serverless/event-gateway/blob/master/docs/api.md)
+- [Serverless Event Gateway on Kubernetes](https://github.com/kelseyhightower/event-gateway-on-kubernetes)
+- [Azure Kubernetes Service(AKS)](https://azure.microsoft.com/en-us/services/kubernetes-service/)
+- [Azure Functions](https://azure.microsoft.com/en-us/services/functions/)
+- [Azure CLI 2.0](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
+- [Azure Cloud Shell](https://docs.microsoft.com/en-us/azure/cloud-shell/overview)
