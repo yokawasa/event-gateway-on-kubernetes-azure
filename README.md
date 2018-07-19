@@ -1,5 +1,5 @@
 # Serverless Event Gateway on Kubernetes (Azure)
-How to guide on running Serverless.com's [Event Gateway](https://github.com/serverless/event-gateway) on Kubernetes (Azure Version). This is derived from Kelsey Hightower's [Serverless Event Gateway on Kubernetes](https://github.com/kelseyhightower/event-gateway-on-kubernetes) to use Azure. Kelsey's original tutorial is based on GCP.
+How to guide on running Serverless.com's [Event Gateway](https://github.com/serverless/event-gateway) on Kubernetes on Azure. This is derived from Kelsey Hightower's [Serverless Event Gateway on Kubernetes](https://github.com/kelseyhightower/event-gateway-on-kubernetes) to use Azure. Kelsey's original tutorial is based on GCP.
 
 ## Prerequisites
 ### Azure Subscription
@@ -150,7 +150,7 @@ echo $EVENT_GATEWAY_IP
 
 ## Routing Events to Azure Functions
 
-In this section you will deploy the `echo` Function in Azure Functions used to test the event routing functionality of the Event Gateway. 
+In this section you will deploy the `echo` function in Azure Functions used to test the event routing functionality of the Event Gateway. 
 > Sample `echo` function that is used in this tutorial is not recommended for production as it lacks any form of security or authentication (authLevel is `anonymous`).
 
 ### Deploy echo function in Azure Function
